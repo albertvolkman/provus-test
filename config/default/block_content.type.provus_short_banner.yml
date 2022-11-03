@@ -1,0 +1,10 @@
+uuid: 0be542a1-b0c6-4f14-82d0-b2e0cdd9cca7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ze0qc-Is_tE20ROGw1Wc5V7UPg7LmXxr9yCy0gC_m7M
+id: provus_short_banner
+label: 'Short Banner'
+revision: 0
+description: ''

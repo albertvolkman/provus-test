@@ -1,0 +1,27 @@
+uuid: ca24cb72-beaf-479e-9a32-642c3d596588
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.provus_accordion
+    - field.field.block_content.provus_accordion.field_provus_items
+    - field.field.block_content.provus_accordion.field_provus_openfirst
+_core:
+  default_config_hash: COn7z951f2N28ycv0eMqVIgGgy0UAAveKkhgiYq1ngA
+id: block_content.provus_accordion.default
+targetEntityType: block_content
+bundle: provus_accordion
+mode: default
+content:
+  field_provus_items:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_openfirst: true
+  field_provus_openfirst: true

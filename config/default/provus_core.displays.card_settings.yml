@@ -1,0 +1,24 @@
+_core:
+  default_config_hash: LZKKIowcbHLVcxchyLEmvfGI09gc6epVGJTf1KhjOLM
+displays:
+  provus_card:
+    name: Default
+    cardstyle: {  }
+  provus_card_image_circle:
+    name: 'Image Circle'
+    cardstyle: {  }
+  provus_card_left:
+    name: 'Image Left'
+    cardstyle: {  }
+  provus_card_right:
+    name: 'Image Right'
+    cardstyle: {  }
+  provus_card_bg:
+    name: 'Image Background'
+    cardstyle: {  }
+  provus_card_basic:
+    name: Basic
+    cardstyle: {  }
+  provus_card_basic_plus:
+    name: 'Basic Plus'
+    cardstyle: {  }

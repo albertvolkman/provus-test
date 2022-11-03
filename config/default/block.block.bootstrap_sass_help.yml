@@ -1,0 +1,22 @@
+uuid: f79605f4-eaa1-4153-9e60-ca2aa54a1210
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bootstrap_sass
+_core:
+  default_config_hash: kp8LNVv72So21jERgGnT4Geyla3h0m2NocLSk1hvlEI
+id: bootstrap_sass_help
+theme: bootstrap_sass
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

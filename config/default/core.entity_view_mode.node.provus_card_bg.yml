@@ -1,0 +1,12 @@
+uuid: a64afc11-3d69-443c-873a-3acec063d08f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: uWiqGFHMzqHS8_1MpR3Se4qqDlWiQqY0_y3ZKCDUJE4
+id: node.provus_card_bg
+label: 'Card Image Background'
+targetEntityType: node
+cache: true

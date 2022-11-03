@@ -1,0 +1,12 @@
+uuid: bd2539ef-7ad1-4d5d-9002-82d29aeecbfb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: uJi26kG2uiQnnvK9y7GRNettLA7itoIIrjzP-XLMS1w
+id: node.provus_card_left
+label: 'Card Image Left'
+targetEntityType: node
+cache: true

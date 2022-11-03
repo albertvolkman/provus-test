@@ -1,0 +1,20 @@
+uuid: 31bb40b4-9a7e-4f64-9ceb-c7f7374f5222
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: GDPR0FPcyT__UgnmtZvcaa7HIJKfIJ2lxYZIsG9_RJY
+name: 'Landing Page'
+type: provus_landing_page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

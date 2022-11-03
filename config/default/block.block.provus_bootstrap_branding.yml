@@ -1,0 +1,25 @@
+uuid: 1f38331a-8942-44fe-8a8e-17045aea80c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - provus_bootstrap
+_core:
+  default_config_hash: UGCH238DgnzGYd2qrFEeHHkOyDrWvvlo6YSO3LhVC3Q
+id: provus_bootstrap_branding
+theme: provus_bootstrap
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

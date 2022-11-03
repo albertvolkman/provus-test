@@ -1,0 +1,32 @@
+uuid: 67ad8edb-7086-477f-b97f-d2855d0fcdbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.provus_button
+    - field.field.block_content.provus_button.field_provus_links
+  module:
+    - ala
+_core:
+  default_config_hash: xBXasR571oiAWvGwah54J3Kc4jzPY_zPbS8upGZV-GI
+id: block_content.provus_button.default
+targetEntityType: block_content
+bundle: provus_button
+mode: default
+content:
+  field_provus_links:
+    type: ala
+    label: hidden
+    settings:
+      trim_length: '80'
+      ala_link_view_class: element
+      ala_link_view_icon: inside
+      ala_link_view_roles: hide
+      url_only: false
+      url_plain: false
+      rel: 0
+      target: 0
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

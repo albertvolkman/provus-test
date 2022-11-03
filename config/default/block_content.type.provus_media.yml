@@ -1,0 +1,10 @@
+uuid: cc296f50-743b-493a-b567-745555a7c2b1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rFpRSz0if2arh6tDp9DpemEdjFdSfH9vHsH35jzwLSg
+id: provus_media
+label: Media
+revision: 0
+description: ''

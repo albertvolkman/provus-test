@@ -1,0 +1,10 @@
+uuid: c874b27d-73d1-4b0e-8c50-3bd6bcb4db36
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mD8HwjKG8VeIajO6M3foW9uqouJqSDNRAfXpZ-Losqo
+id: provus_button
+label: Button
+revision: 0
+description: ''

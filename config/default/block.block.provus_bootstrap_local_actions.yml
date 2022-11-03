@@ -1,0 +1,20 @@
+uuid: 09b0b7e3-c5a9-42e5-ae3a-a0077c9ce42c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - provus_bootstrap
+_core:
+  default_config_hash: FhHy9gSDnUbObdCIOApIBUd2qhvcXJbzAx5HBUrw618
+id: provus_bootstrap_local_actions
+theme: provus_bootstrap
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

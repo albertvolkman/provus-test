@@ -1,0 +1,33 @@
+uuid: 7499280d-5697-4398-a15c-326bd65ecb91
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.utility-menu
+  module:
+    - menu_block
+  theme:
+    - provus_bootstrap
+_core:
+  default_config_hash: Zysi4oDyiwJfT9bPGqZHNVMGhdg69sDczPNbsIIlXao
+id: utilitymenu
+theme: provus_bootstrap
+region: top_header
+weight: 0
+provider: null
+plugin: 'menu_block:utility-menu'
+settings:
+  id: 'menu_block:utility-menu'
+  label: 'Utility Menu'
+  label_display: '0'
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand_all_items: false
+  parent: 'utility-menu:'
+  suggestion: utility_menu
+  label_type: block
+  label_link: false
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: d0f84246-ecb5-462e-90da-e022d9568f8c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - provus_bootstrap
+_core:
+  default_config_hash: B1cpHXH0FsL-wN0zBiRYmOgUg9D-GsEc4Esqr9NnGVg
+id: provus_bootstrap_page_title
+theme: provus_bootstrap
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

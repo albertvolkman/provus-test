@@ -1,0 +1,10 @@
+uuid: 43a62fe0-2f1a-4cc3-a104-47d554937197
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FmiYe3y5slMOSvw-ghvDvI4ZlmJDkJLQbxdQZo5Aix4
+id: provus_tabs
+label: Tabs
+revision: 0
+description: ''

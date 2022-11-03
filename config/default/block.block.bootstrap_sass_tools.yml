@@ -1,0 +1,27 @@
+uuid: c2d9f829-8bbe-4a94-bd0b-bb0da2a81fb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - bootstrap_sass
+_core:
+  default_config_hash: T28bdwVZOsQcCB9fRvy6i6ENfDyzosyUReStIjoEPso
+id: bootstrap_sass_tools
+theme: bootstrap_sass
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

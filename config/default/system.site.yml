@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: DvEA7qDrbIK2mfmKIFerzdW9yNPa7y4zwQUKTNSVVVs
+name: 'Provus Test'
+mail: admin@example.com
+slogan: 'Drupal kickstarter by Promet Source'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+uuid: af48a413-eb51-468d-af20-9355a98235f7
+langcode: en
+default_langcode: en

@@ -1,0 +1,17 @@
+uuid: b10e1f23-4cef-48a7-83f7-3407dfb90ad7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4nGLiGwm0EkPboLInTpIDNSRfp9Fju9zS1F68rAHKUI
+name: provus_large_banner
+label: 'Large Banner'
+effects:
+  8e510469-f876-4de7-b6cc-70bf6adffb50:
+    uuid: 8e510469-f876-4de7-b6cc-70bf6adffb50
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1440
+      height: 500
+      anchor: center-center

@@ -1,0 +1,10 @@
+uuid: bb63f4e0-69a1-4ce3-bfa8-b7e54986e84a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: glnlPqUUjcZxRcOLv87HNEeAHZKr6obzdGDREgQOkus
+id: provus_large_banner
+label: 'Large Banner'
+revision: 0
+description: ''

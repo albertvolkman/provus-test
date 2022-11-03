@@ -1,0 +1,17 @@
+uuid: e18b4cbd-6a05-42ea-8de2-81f9f827de7b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j8cpLxc_7cHWLy5_YEkZItvolqOaFXjjttUe2S4gToo
+name: provus_landscape_small
+label: 'Landscape Small'
+effects:
+  30bc13f2-ad7f-4ca2-b5d9-dd6caf93dd8b:
+    uuid: 30bc13f2-ad7f-4ca2-b5d9-dd6caf93dd8b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 450
+      height: 250
+      anchor: center-center

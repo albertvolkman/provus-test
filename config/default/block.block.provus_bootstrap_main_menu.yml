@@ -1,0 +1,27 @@
+uuid: 71f6859d-bb0a-4aee-939d-21f6c3dfce04
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - provus_bootstrap
+_core:
+  default_config_hash: Z00sXKKindaapjf8eQ740eE2zjrqccURegRACclrTxY
+id: provus_bootstrap_main_menu
+theme: provus_bootstrap
+region: primary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: true
+visibility: {  }

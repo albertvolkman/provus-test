@@ -1,0 +1,17 @@
+uuid: 9ff98b58-05d2-4bf0-9a23-5b0215c7b2d9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CaIXXGFsBBdjeCW7OLKySYPv6vXJKmhbZ8bWGk83gnw
+name: provus_landscape_medium
+label: 'Landscape Medium'
+effects:
+  8e0f29c0-cdf3-45b1-9123-c3653b30772b:
+    uuid: 8e0f29c0-cdf3-45b1-9123-c3653b30772b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 680
+      height: 340
+      anchor: center-center

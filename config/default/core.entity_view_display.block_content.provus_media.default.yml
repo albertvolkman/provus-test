@@ -1,0 +1,24 @@
+uuid: 3de2762c-e6c6-4eb6-9557-169171b8e8c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.provus_media
+    - field.field.block_content.provus_media.field_provus_media
+_core:
+  default_config_hash: VuxidtgQ4xyWVCXua5op0B3RcZpCijfvv4_ANTxIqaU
+id: block_content.provus_media.default
+targetEntityType: block_content
+bundle: provus_media
+mode: default
+content:
+  field_provus_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

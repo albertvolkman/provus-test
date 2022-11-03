@@ -1,0 +1,20 @@
+uuid: 1975a7b1-90a2-4d2b-a266-56e29aa92cab
+langcode: en
+status: true
+dependencies:
+  module:
+    - exclude_node_title
+    - fontawesome
+    - media
+    - system
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access fontawesome additional settings'
+  - 'use exclude node title'
+  - 'view media'
