@@ -1,0 +1,17 @@
+#block-bird-gallery {
+  h2 a {
+    color: $red;
+  }
+  p {
+    color: $gray;
+  }
+  img {
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 12.5rem;
+    height: 12.5rem;
+    border: 1px solid #eaeaea;
+    border-radius: 50% !important;
+  }
+}
