@@ -1,0 +1,47 @@
+// Background Colors.
+.bg-primary {
+  background: $primary-shade;
+  color: $white;
+  h1,h2,h3,h4,h5,h6 {
+    color: $white;
+  }
+}
+.bg-secondary {
+  background: $secondary-shade;
+  color: $white;
+  h1,h2,h3,h4,h5,h6 {
+    color: $white;
+  }
+}
+.bg-gray,
+.bg-grey {
+  background: $gray-100;
+}
+
+.bg-white {
+  background: $white;
+}
+
+.layout {
+  margin: rem-calc(80 0);
+  &:first-child {
+    margin: 0;
+  }
+  &.no-margin {
+    margin: 0;
+  }
+  .block {
+    &:not(:first-child) {
+      margin-top: rem-calc(80);
+    }
+  }
+}
+[class^="bg-"] {
+  padding: rem-calc(80 0);
+  @include media-breakpoint-down(md) {
+    padding: rem-calc(40 0);
+  }
+  .layout {
+    margin: 0;
+  }
+}

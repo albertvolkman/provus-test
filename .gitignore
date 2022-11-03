@@ -22,7 +22,12 @@
 /web/sites/*/cache
 
 # Ignore drupal core (if not versioning drupal sources)
-/web/
+/web/README.md
+/web/themes/README.md
+/web/themes/contrib
+/web/themes/custom/provus_bootstrap/node_modules
+/web/libraries
+/web/profiles
 /web/vendor
 /web/core
 /web/modules/README.txt
