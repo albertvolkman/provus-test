@@ -1,0 +1,37 @@
+uuid: 480b4165-76cc-4ecb-81d2-7eb600590433
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bird_gallery
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - provus_bootstrap
+id: bird_gallery
+theme: provus_bootstrap
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:bird_gallery-bird_gallery'
+settings:
+  id: 'views_block:bird_gallery-bird_gallery'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      provus_landing_page: provus_landing_page
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home-page
